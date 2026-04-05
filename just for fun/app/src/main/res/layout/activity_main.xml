@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#C3A78A">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="☕ Coffee Mood"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#4E342E"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Coffee Image -->
+    <ImageView
+        android:id="@+id/coffeeImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Quote -->
+    <TextView
+        android:id="@+id/quoteText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="But first, coffee ☕"
+        android:textSize="18sp"
+        android:textColor="#5D4037"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Small text -->
+    <TextView
+        android:id="@+id/subText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Coffee is a hug in a mug 💖"
+        android:textSize="16sp"
+        android:textColor="#6D4C41"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Button -->
+    <Button
+        android:id="@+id/refreshBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Brew ☕"
+        android:backgroundTint="#6F4E37"
+        android:textColor="#FFFFFF"/>
+
+    <ImageView
+        android:id="@+id/bottomImage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_1"/>
+
+</LinearLayout>
